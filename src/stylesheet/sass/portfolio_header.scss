@@ -1,0 +1,26 @@
+
+.portfolio-category {
+    .columns {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    button {
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+
+}
+
+.portfolio-header {
+    h1 {
+        //font-size:$h1FontSize;
+        margin: 0 auto;
+    }
+    
+    margin: 1rem 0;
+    text-align: center;
+    align-content: center;
+}
