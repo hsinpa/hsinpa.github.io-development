@@ -1,29 +1,25 @@
-<div class="container portfolio-aboutme">
+    <script>
+    
+    export const companyname = "";
+    export const companylogoUrl = "";
 
+    
+    export const projectInfoArray = [];
+
+    export class ProjectInfo {
+        constructor(projectName, projectScreenshot, projectURL, projectDescriptionList) {
+            this.projectName = projectName;
+            this.projectScreenshot = projectScreenshot;
+            this.projectURL = projectURL;
+            
+            this.projectDescriptionList = projectDescriptionList;
+        }
+    }
+    </script>
+    
+    
     <div class="company_banner">
-        <div class="company_logo"><img alt="htc logo" src="./sprites/logo/htc_logo.png"> <h2>HTC</h2></div>
-        <br>
-        
-        <div class="company_content">
-            <h2> <a href="https://www.viveport.com/apps/4f5f140a-0928-4fcb-8023-93dc212eac17/VIVEPORT_Video/">Viveport Video</a></h2>
-
-            <div class="columns">
-
-                <div class="column">
-                    <ul>
-                        <li>Support ambisonic audio at Runtime</li>
-                        <li>Play around with ffmepg and codec</li>
-                        <li>Optimizing video load time</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-        
-    </div>
-    <hr>
-    <div class="company_banner">
-        <div class="company_logo"><img alt="expect studio logo" src="./sprites/logo/expect_temp_logo.jpg"> <h2>Expect Studio 有日互動</h2></div>
+        <div class="company_logo"><img alt="company_logo" src={companylogoUrl}> <h2>{companyname}</h2></div>
         <br>
        
         <div class="company_content">
@@ -50,4 +46,3 @@
         </div>
         
     </div>
-</div>

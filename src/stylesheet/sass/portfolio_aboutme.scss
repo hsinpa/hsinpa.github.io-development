@@ -1,5 +1,4 @@
 .portfolio-aboutme {
-    padding: 2em 0;
     
     .company_banner {
         .company_logo {
@@ -12,6 +11,19 @@
             }
         }
         
-    }
+        //         .company_content {
 
+
+        //         }
+
+        .screenshots {
+            text-align: center;
+            img {
+                margin : 0 auto;
+                max-width: 30rem;
+            }
+            
+        }
+    }
+    padding: 2em 0;
 }
