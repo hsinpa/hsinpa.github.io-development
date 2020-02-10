@@ -1,47 +1,57 @@
     <script>
     
-    export const companyname = "";
-    export const companylogoUrl = "";
+    export let companyname = "";
+    export let companylogoUrl = "";
+    export let jobTitle = "";
+    export let screenshot_enlargable = "";
 
-    
-    export const projectInfoArray = [];
+    export let projectInfoArray = [];
 
-    export class ProjectInfo {
-        constructor(projectName, projectScreenshot, projectURL, projectDescriptionList) {
-            this.projectName = projectName;
-            this.projectScreenshot = projectScreenshot;
-            this.projectURL = projectURL;
-            
-            this.projectDescriptionList = projectDescriptionList;
+    const OnScreenshotClickEvent = function() {
+        if (this.getAttribute("data-enlargable") == "false") return;
+
+        if (this.getAttribute("data-type") == "shrink") {
+            this.style.cssText = "position: absolute; left : 0; right :0; margin-left:auto; margin-right : auto; max-width:60rem; z-index:1;";
+            this.setAttribute("data-type", "enlarge");
+        } else {
+            this.style.cssText = "position: relative; max-width: 35rem; z-index:0;";
+            this.setAttribute("data-type", "shrink");
         }
     }
+    
     </script>
     
     
     <div class="company_banner">
-        <div class="company_logo"><img alt="company_logo" src={companylogoUrl}> <h2>{companyname}</h2></div>
+        <div class="company_logo"><img alt={companyname} src={companylogoUrl}> <h2>{companyname}</h2> <h3>{jobTitle}</h3></div>
         <br>
        
         <div class="company_content">
             <div class="columns">
                 <div class="column">
-                    <h2><a href="https://www.expectstudio.com/project-03">Football VR</a></h2>
-                    <ul>
-                        <li>Simulate football collide vibration to your controller</li>
-                    </ul>
-                    <br>
-                    <h2><a href="https://www.expectstudio.com/project-03">Institute of Labor : VR Employee tranining</a></h2>
-                    <ul>
-                        <li>Train factory worker to practice with Stamping, Conveyor and Grinder machine</li>
-                    </ul>
+                    {#each projectInfoArray as projectInfo}
+                        <h2><a href={projectInfo.projectURL}>{projectInfo.projectName}</a></h2>
 
+                        <ul>
+                        {#each projectInfo.projectDescriptionList as projectDesc}
+                            <li>{projectDesc}</li>
+                        {/each}
+                        </ul>
+
+                        <br>
+                    {/each}
                 </div>
             </div>
 
-                <div class="columns screenshots">
-                    <img class="column" alt="football vr" src="./sprites/screenshots/football_vr.png">
-                    <img class="column" alt="vr training" src="./sprites/screenshots/Institute of Labor_vr_training.png">
-                </div>
+
+            <div class="columns screenshots">
+                {#each projectInfoArray as projectInfo}
+                    {#each projectInfo.projectScreenshot as screenshot}
+                        <img class="column" alt={projectInfo.projectName} src={screenshot} data-enlargable={screenshot_enlargable}
+                         on:click={OnScreenshotClickEvent} data-type="shrink">
+                    {/each}
+                {/each}
+            </div>
 
         </div>
         

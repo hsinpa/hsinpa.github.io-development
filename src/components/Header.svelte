@@ -1,3 +1,4 @@
+
 <div class="container">
     <div class="level portfolio-header"> 
         <h1>Hsinpa Portfolio</h1>
@@ -6,8 +7,9 @@
 
     <div class="level portfolio-category"> 
         <div class="columns is-mobile">
-            <div class="column"><button>About me</button></div>
-            <div class="column"><button>Assets</button></div>
+            <div class="column"><a href="#aboutme">About me</a></div>
+            <div class="column"><a href="#assets">Unity Assets</a></div>
             </div>      
     </div>
 </div>
+

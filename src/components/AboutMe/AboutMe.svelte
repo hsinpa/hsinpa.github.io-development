@@ -1,53 +1,21 @@
+<script>
+import AboutMeComponent from './AboutMeComponents.svelte';
+
+
+let pastExperienceDataset = [];
+
+fetch("./database/PastExperience.json") 
+    .then(response => response.json())
+    .then(json =>  {
+        pastExperienceDataset = json;
+    });
+
+</script>
+
 <div class="container portfolio-aboutme">
-
-    <div class="company_banner">
-        <div class="company_logo"><img alt="htc logo" src="./sprites/logo/htc_logo.png"> <h2>HTC</h2></div>
-        <br>
-        
-        <div class="company_content">
-            <h2> <a href="https://www.viveport.com/apps/4f5f140a-0928-4fcb-8023-93dc212eac17/VIVEPORT_Video/">Viveport Video</a></h2>
-
-            <div class="columns">
-
-                <div class="column">
-                    <ul>
-                        <li>Support ambisonic audio at Runtime</li>
-                        <li>Play around with ffmepg and codec</li>
-                        <li>Optimizing video load time</li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-        
-    </div>
-    <hr>
-    <div class="company_banner">
-        <div class="company_logo"><img alt="expect studio logo" src="./sprites/logo/expect_temp_logo.jpg"> <h2>Expect Studio 有日互動</h2></div>
-        <br>
-       
-        <div class="company_content">
-            <div class="columns">
-                <div class="column">
-                    <h2><a href="https://www.expectstudio.com/project-03">Football VR</a></h2>
-                    <ul>
-                        <li>Simulate football collide vibration to your controller</li>
-                    </ul>
-                    <br>
-                    <h2><a href="https://www.expectstudio.com/project-03">Institute of Labor : VR Employee tranining</a></h2>
-                    <ul>
-                        <li>Train factory worker to practice with Stamping, Conveyor and Grinder machine</li>
-                    </ul>
-
-                </div>
-            </div>
-
-                <div class="columns screenshots">
-                    <img class="column" alt="football vr" src="./sprites/screenshots/football_vr.png">
-                    <img class="column" alt="vr training" src="./sprites/screenshots/Institute of Labor_vr_training.png">
-                </div>
-
-        </div>
-        
-    </div>
+    {#each pastExperienceDataset as dataset}
+        <AboutMeComponent companyname={dataset.companyname} jobTitle={dataset.jobTitle} screenshot_enlargable={dataset.screenshot_enlargable}
+                            companylogoUrl={dataset.companyUrl} projectInfoArray={dataset.projectInfoArray} />
+        <hr>
+    {/each}
 </div>
