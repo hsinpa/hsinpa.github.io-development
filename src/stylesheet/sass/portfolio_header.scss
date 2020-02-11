@@ -23,3 +23,12 @@
     text-align: center;
     align-content: center;
 }
+
+.portfolio-short-description {
+    text-align: center;
+    p {
+        max-width: 35em;
+        margin: 0 auto;
+
+    }
+}
