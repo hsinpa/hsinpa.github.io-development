@@ -33,7 +33,7 @@ class Header extends React.Component<PropsFromRedux> {
                 </li>
 
                 <li className="nav-item">
-                    <Link className="nav-link" to="/project">Personal Project</Link>
+                    <Link className="nav-link" to="/projects">Personal Project</Link>
                 </li>
 
                 <li className="nav-item">

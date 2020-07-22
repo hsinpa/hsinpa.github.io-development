@@ -26,3 +26,8 @@ export const TestJSONPath = {
     FakeProject : "./dataset/fake_project.json",
     FakePackage : "./dataset/fake_package.json",
 }
+
+export const PortfolioPath = {
+    ExperiencePath : "./dataset/PastExperience.json",
+    UnityAssetPath : "./dataset/UnityAssets.json"
+}

@@ -4,10 +4,10 @@ import thunkMiddleware from 'redux-thunk'
 
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
-import Home from "./components/Home/Home";
+import Router from "./components/Layout/Router";
 
 import {Reducer} from "./Reducer/ReducerContainer";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 import './stylesheet/main.scss';
 
@@ -17,11 +17,11 @@ console.log(store.getState());
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <HashRouter>
 
-        <Home></Home>
+        <Router></Router>
 
-        </BrowserRouter>
+        </HashRouter>
     </Provider>,
 
     document.getElementById("hsinpa_portfolio")
