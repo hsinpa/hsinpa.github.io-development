@@ -1,3 +1,5 @@
+import {Dispatch} from "redux";
+
 export const UtilityFunctions = {
     GetRandomID : function() : string {
         let number = Math.random() // 0.9394456857981651
@@ -19,3 +21,22 @@ export const PostFetch = function(url : string, callback : (data:any) => void) {
       console.error(error);
     }
 }
+
+
+export const fetchPost = (dispatch : Dispatch, type: string, url : string) => {
+    try {
+        //fetch("./dataset/fake_tasks.json")
+
+        fetch(url)
+        .then(res => res.json())
+        .then(posts => {
+            dispatch({
+                type : type,
+                payload : posts
+            })
+        });
+    } catch (error) {
+      console.error(error);
+    }
+  }
+

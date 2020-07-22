@@ -6,20 +6,12 @@ import {ExperienceType, ProjectInfoArrayType} from '../../utility/DatasetType'
 import {ActionFlag, PortfolioPath } from "../../utility/EventFlag";
 import {PostFetch} from "../../utility/Utility";
 
-export const GetAllExperience = (dispatch : Dispatch) => {
+export const GetAllExperience = (dispatch : Dispatch, ) => {
     try {
         PostFetch(PortfolioPath.ExperiencePath, (data : ExperienceType[]) => {
             console.log(data);
-            // let packageSets : PackageType[] = [];
-            // data.forEach(x => {
-            //     packageSets.push(x);
-            // });
 
-            // console.log(packageSets);
-            // dispatch({
-            //     type : ActionFlag.GET_PACKAGE_BY_PID,
-            //     payload : packageSets
-            // })
+            dispatch({type: ActionFlag.FETCH_PROEJCT, payload : data});
         });
     } catch (error) {
       console.error(error);

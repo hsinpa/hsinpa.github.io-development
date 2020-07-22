@@ -3,6 +3,8 @@ import {RooterReducerType} from "../../Reducer/ReducerContainer";
 import {GetAllExperience} from './ExperienceAction'
 import {Dispatch} from "redux";
 import {connect, ConnectedProps } from 'react-redux';
+import { JobLayoutBox } from '../ContentLayout/JobLayoutBox';
+import {ExperienceType} from '../../utility/DatasetType'
 
 const mapDispatch = (dispatch : Dispatch) => {
     return {
@@ -11,6 +13,7 @@ const mapDispatch = (dispatch : Dispatch) => {
 }
 
 const mapState = (state: RooterReducerType) => ({
+    projects: state.experience_structure.list
 });
 
 const connector = connect(
@@ -24,17 +27,37 @@ class Experience extends React.Component<PropsFromRedux> {
 
     constructor(props: PropsFromRedux) {
         super(props);
+        this.props.fetchData();
+    }
 
-        props.fetchData();
+    CreateJobLayoutBox(project : ExperienceType[]) {
+        let boxs = [];
+        let projectNum = project.length;
+
+        console.log(project);
+        
+        for (let i = 0; i < projectNum; i++) {
+            boxs.push(<JobLayoutBox content={project[i]} />);
+        }
+    
+        return boxs;
     }
 
     componentWillMount() {
-
+        // if (this.props.projects.length == 0) {
+        //     this.props.fetchData();
+        // }
     }
     
     render() {
         return <div>
-            Experience
+
+            <div className="container">
+                <div id="experience_main"  className="column is-1">
+                    {this.CreateJobLayoutBox(this.props.projects)}
+                </div>
+            </div>
+
         </div>;
     }
 }

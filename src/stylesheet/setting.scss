@@ -1,0 +1,23 @@
+h1, h2, h3, p, span {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container {
+    @media (max-width: 750px) { 
+        max-width: 95%;
+    }
+}
