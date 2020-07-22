@@ -4,9 +4,10 @@ import thunkMiddleware from 'redux-thunk'
 
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
-import Project from "./components/Project/Project";
+import Home from "./components/Home/Home";
 
 import {Reducer} from "./Reducer/ReducerContainer";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import './stylesheet/main.scss';
 
@@ -16,8 +17,12 @@ console.log(store.getState());
 
 ReactDOM.render(
     <Provider store={store}>
-    <div><Project/></div>
+        <BrowserRouter>
+
+        <Home></Home>
+
+        </BrowserRouter>
     </Provider>,
 
-    document.getElementById("dateline_app")
+    document.getElementById("hsinpa_portfolio")
 )
