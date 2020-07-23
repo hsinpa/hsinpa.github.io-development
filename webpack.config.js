@@ -21,12 +21,13 @@ module.exports = {
     },
 
     output: {
-        path: path.resolve(__dirname, 'public/builds')
+        path: path.resolve(__dirname, 'public/builds'),
+        publicPath : path.join('public/builds'),
     },
     devServer: {
         contentBase: path.join(__dirname, 'public'),
         compress: true,
-        port: 9000
+        port: 9020
       },
     
     module: {

@@ -29,6 +29,10 @@
             {
                 "url": "https://docs.google.com/document/d/1qeNzxSndcTBZge74PqTMz-i4E5z3rd577tuv34ETvyc/edit?usp=sharing",
                 "content": "Documentation link"
+            }, 
+            {
+                "url" : "https://assetstore.unity.com/packages/tools/input-management/math-parser-161045",
+                "content" : "Unity Asset Store"
             }
         ],
         "projectScreenshot": "./sprites/screenshots/math_parser_screen_01.jpg"

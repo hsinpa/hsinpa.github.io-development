@@ -27,5 +27,30 @@ export interface SimpleInfoLinkType {
 }
 
 export interface SimpleInfoStructure {
-    list : SimpleInfoLayoutType[],
+    list : SimpleInfoLayoutType[]
 }
+
+
+export interface HeaderDataType {
+    link : string,
+    name : string
+};
+
+export const HeaderDataSet : HeaderDataType[] = [
+    {
+        link : "/experience",
+        name : "Experience"
+    }, 
+    {
+        link : "/hackathon",
+        name : "Hackathon"
+    },
+    {
+        link : "/projects",
+        name : "Personal Project"
+    },
+    {
+        link : "/assets",
+        name : "Unity Asset"
+    }
+];

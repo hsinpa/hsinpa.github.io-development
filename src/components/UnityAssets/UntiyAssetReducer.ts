@@ -10,7 +10,7 @@ const initialState : SimpleInfoStructure = {
 export function UnityAssetReducer(state = initialState, action : any ) : SimpleInfoStructure {
 
     switch (action.type) {
-        case ActionFlag.FETCH_HACKATHON:
+        case ActionFlag.FETCH_UNITYASSET:
             console.log(action.payload);
           return {
             ...state, list :action.payload
