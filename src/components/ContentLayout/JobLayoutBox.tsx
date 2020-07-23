@@ -29,7 +29,7 @@ export class JobLayoutBox extends React.Component<JobLayoutBoxProp, {}> {
             let screenShotList : JSX.Element[] = [];
 
             for (let k = 0; k < screenShotNum; k++) {
-                screenShotList.push(<img alt={info[i].projectName} src={info[i].projectScreenshot[k]}/>);
+                screenShotList.push(<img alt={info[i].projectName} src={info[i].projectScreenshot[k]} />);
             }
 
             boxs.push(<div className="screenshots">{screenShotList}</div>);

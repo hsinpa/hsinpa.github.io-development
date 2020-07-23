@@ -33,8 +33,15 @@
             {
                 "projectName" : "Institute of Labor : VR Employee tranining",
                 "projectScreenshot" : ["./sprites/screenshots/Institute of Labor_vr_training.png"],
-                "projectURL" : "https://www.expectstudio.com/project-03",
-                "projectDescriptionList" : ["Train factory worker to practice with Stamping, Conveyor and Grinder machine"]
+                "projectURL" : "https://www.expectstudio.com/project-07",
+                "projectDescriptionList" : ["Train factory worker to practice with Stamping, Conveyor and Grinder machine",
+                                            "Design a data-driven multiple choice system, which can handle multiple route"]
+            },
+            {
+                "projectName" : "ISHA of R.O.C : VR Crane Simulation",
+                "projectScreenshot" : [],
+                "projectURL" : "https://www.expectstudio.com/project-06-3",
+                "projectDescriptionList" : ["Calculate and score whether the player go against the rule during trainging"]
             }
         ]
     },

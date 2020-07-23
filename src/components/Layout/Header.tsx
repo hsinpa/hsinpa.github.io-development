@@ -19,17 +19,6 @@ class Header extends React.Component<PropsFromRedux> {
         super(props);
     }
 
-    // GenerateLinkSet(urlSet : HeaderDataType[]) {
-    //     let boxs = [];
-
-    //     for (let i = 0; i < urlSet.length; i++) {
-    //         boxs.push(                    
-    //         <li className="nav-item">
-    //             <Link className="nav-link" to="/experience" onClick={e => this.OnNavClick(e)}>{urlSet}</Link>
-    //         </li>);
-    //     }
-    //     return boxs;
-    // }
 
     OnNavClick(e : React.MouseEvent) {
         document.querySelectorAll(".nav-item").forEach(item => {
@@ -38,7 +27,6 @@ class Header extends React.Component<PropsFromRedux> {
         });
 
         e.currentTarget.className = "nav-item active";
-
     }
 
     render() {
@@ -54,15 +42,15 @@ class Header extends React.Component<PropsFromRedux> {
                 <ul className="navbar-nav mr-auto">
                     
                 <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link " to="/experience">Experience</Link>
-                </li>
-
-                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link" to="/hackathon">Hackathon</Link>
+                    <Link className="nav-link" to="/experience">Experience</Link>
                 </li>
 
                 <li className="nav-item" onClick={e => this.OnNavClick(e)}>
                     <Link className="nav-link" to="/projects">Personal Project</Link>
+                </li>
+
+                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
+                    <Link className="nav-link" to="/hackathon">Hackathon</Link>
                 </li>
 
                 <li className="nav-item" onClick={e => this.OnNavClick(e)}>

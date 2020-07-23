@@ -1,7 +1,8 @@
 [{
-        "name": "Onecut",
+        "name": "Onecut - Feb 2019",
         "projectDescriptionList": ["Only work with SpriteRender",
             "Cut your sprite into any piece you like",
+            "Self taught all the trigogeometry math (finding line itersection, triangle area etc...)",
             "Support all platform, Unity version 2017 aboved"
         ],
         "projectDescriptionWithLink": [{
@@ -17,28 +18,26 @@
     },
 
     {
-        "name": "Math Parser",
-        "projectDescriptionList": ["Insert math expression as input, output answer. As simple as that.",
+        "name": "Math Parser - June 2019",
+        "projectDescriptionList": [
+            "Insert math expression as input, output answer. As simple as that.",
             "Apply shunting-yard algorithm.",
             "Work with bunch of math function, see documentation link for more detail"
         ],
-        "projectDescriptionWithLink": [{
-                "url": "https://hsinpa.github.io/Math-Parser-Demo/",
-                "content": "WebGL Demo link"
+        "projectDescriptionWithLink": [
+            {
+                "url" : "https://assetstore.unity.com/packages/tools/input-management/math-parser-161045",
+                "content" : "Unity Asset Store"
             },
             {
                 "url": "https://docs.google.com/document/d/1qeNzxSndcTBZge74PqTMz-i4E5z3rd577tuv34ETvyc/edit?usp=sharing",
                 "content": "Documentation link"
-            }, 
-            {
-                "url" : "https://assetstore.unity.com/packages/tools/input-management/math-parser-161045",
-                "content" : "Unity Asset Store"
             }
         ],
         "projectScreenshot": "./sprites/screenshots/math_parser_screen_01.jpg"
     },
     {
-        "name": "Ultimate Scroll View (Still under development)",
+        "name": "Ultimate Scroll View - Dec 2019",
         "projectDescriptionList": ["Support Top-Down, Left-Right, Right-Left three scrolling direction.",
             "Recycle your UI component, greatly improve performance if you have large dataset to manage.",
             "Only support column/row structure."
@@ -47,6 +46,6 @@
             "url": "https://www.youtube.com/watch?v=jyXanglxyBw/",
             "content": "Demo Video"
         }],
-        "projectScreenshot": ""
+        "projectScreenshot": "./sprites/screenshots/onecut.gif"
     }
 ]
