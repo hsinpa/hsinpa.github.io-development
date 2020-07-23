@@ -2,9 +2,12 @@ import * as React from "react";
 import {RooterReducerType} from "../../Reducer/ReducerContainer";
 import {Dispatch} from "redux";
 import {connect, ConnectedProps } from 'react-redux';
+import {DispatchFetchPost} from "../../utility/Utility";
+import {ActionFlag, PortfolioPath } from "../../utility/EventFlag";
 
 const mapDispatch = (dispatch : Dispatch) => {
     return {
+        fetchData : () => (DispatchFetchPost(dispatch, ActionFlag.FETCH_UNITYASSET, PortfolioPath.UnityAssetPath)),
     }
 }
 

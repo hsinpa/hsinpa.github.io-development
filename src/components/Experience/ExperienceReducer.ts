@@ -14,7 +14,7 @@ const initialState : ExperienceStructure = {
 export function ExperienceReducer(state = initialState, action : any ) : ExperienceStructure {
 
     switch (action.type) {
-        case ActionFlag.FETCH_PROEJCT:
+        case ActionFlag.FETCH_EXPERIENCE:
           return {
             ...state, list :action.payload
           };

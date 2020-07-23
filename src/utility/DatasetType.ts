@@ -14,3 +14,18 @@ export interface ProjectInfoArrayType {
     projectDescriptionList : string[]
 };
 
+export interface SimpleInfoLayoutType {
+    name : string,
+    projectDescriptionList : string[],
+    projectDescriptionWithLink : SimpleInfoLinkType[],
+    projectScreenshot : string
+}
+
+export interface SimpleInfoLinkType {
+    url : string,
+    content : string,
+}
+
+export interface SimpleInfoStructure {
+    list : SimpleInfoLayoutType[],
+}

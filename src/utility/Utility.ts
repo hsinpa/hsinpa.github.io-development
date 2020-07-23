@@ -23,10 +23,8 @@ export const PostFetch = function(url : string, callback : (data:any) => void) {
 }
 
 
-export const fetchPost = (dispatch : Dispatch, type: string, url : string) => {
+export const DispatchFetchPost = (dispatch : Dispatch, type: string, url : string) => {
     try {
-        //fetch("./dataset/fake_tasks.json")
-
         fetch(url)
         .then(res => res.json())
         .then(posts => {
