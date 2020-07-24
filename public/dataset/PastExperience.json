@@ -32,7 +32,8 @@
             },
             {
                 "projectName" : "Institute of Labor : VR Employee tranining",
-                "projectScreenshot" : ["./sprites/screenshots/Institute of Labor_vr_training.png"],
+                "projectScreenshot" : ["./sprites/screenshots/Institute of Labor_vr_training.png", 
+                                        "./sprites/screenshots/crane_multi_choice_01.png"],
                 "projectURL" : "https://www.expectstudio.com/project-07",
                 "projectDescriptionList" : ["Train factory worker to practice with Stamping, Conveyor and Grinder machine",
                                             "Design a data-driven multiple choice system, which can handle multiple route"]
@@ -96,6 +97,14 @@
                 "projectDescriptionList" : [
                     "Responsible for ”Recent” and 'Following' hybrid  page, made with javascript",
                     "Including infinite content scroll, messaging network, and review system"]
+            },
+            {
+                "projectName" : "FWD Jetso App (Removed from app store)",
+                "projectScreenshot" : [""],
+                "projectURL" : "",
+                "projectDescriptionList" : [
+                    "Handling Google Cloud Messaging to send notifications directly to android phones, receiving iBeacon events, and for locating user addresses with GPS",
+                    "Built backend CMS in php(Laravel) for client to redeem gift and manipulate data"]
             }
         ]
     }

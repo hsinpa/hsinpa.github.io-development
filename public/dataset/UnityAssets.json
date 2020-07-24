@@ -14,9 +14,8 @@
                 "content": "WebGL Demo Link"
             }
         ],
-        "projectScreenshot": ""
+        "projectScreenshot": "./sprites/screenshots/onecut.gif"
     },
-
     {
         "name": "Math Parser - June 2019",
         "projectDescriptionList": [
@@ -40,12 +39,17 @@
         "name": "Ultimate Scroll View - Dec 2019",
         "projectDescriptionList": ["Support Top-Down, Left-Right, Right-Left three scrolling direction.",
             "Recycle your UI component, greatly improve performance if you have large dataset to manage.",
-            "Only support column/row structure."
+            "Only support column/row structure.",
+            "Been pressure test at one of the HTC's project."
         ],
         "projectDescriptionWithLink": [{
             "url": "https://www.youtube.com/watch?v=jyXanglxyBw/",
             "content": "Demo Video"
+            },
+            {
+            "url": "https://github.com/hsinpa/UltimateScrollView",
+            "content": "Github"
         }],
-        "projectScreenshot": "./sprites/screenshots/onecut.gif"
+        "projectScreenshot": ""
     }
 ]

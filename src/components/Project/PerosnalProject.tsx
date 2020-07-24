@@ -30,7 +30,7 @@ class PersonalProject extends React.Component<PropsFromRedux> {
     
     render() {
         return <div>
-            Perosnal Project
+            Perosnal Project (In chronological order)
         </div>;
     }
 }
