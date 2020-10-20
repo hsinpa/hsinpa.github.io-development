@@ -1,0 +1,124 @@
+[
+    {
+        "name": "3D Image/ Video Processing, May 2020",
+        "projectDescriptionList": [
+            "Design a lightweight autoencoder architecture to output depth image from rgb texture",
+            "Applied Compute Shader and Geometry shader to parse depth images and transform into 3d meshes, with approximately 30 fps on mobile device",
+            "Managed to run trained model on Unity3D without any third-party constraint",
+            "Utilized: Keras, Python, Unity3D C#, Shader HLSL, Compute shader"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/3DImageProcessing",
+            "content": "Github"
+        } ],
+        "projectScreenshot": ["./sprites/personal_project/depth_image.gif",
+                            "./sprites/personal_project/depth_video.gif"
+        ]
+    },
+
+    {
+        "name": "SparkAR image effect, Jan 2020",
+        "projectDescriptionList": [
+            "Make Color Segment and Dithering effect by pure code",
+            "SparkAR lack support to many shader functions, have to create them with with math",
+            "Got forks by other developer"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/SparkAR---Dithering",
+            "content": "Github"
+        } ],
+        "projectScreenshot": ["./sprites/personal_project/spark_dithering.PNG"
+        ]
+    },
+
+    {
+        "name": "MazeDefense - Tower Defense, June 2019",
+        "projectDescriptionList": [
+            "Can endure hundred of unit without fps drop",
+            "Use Flow Field path finding to greatly reduce computation needs",
+            "Player can move map block around, which create dynamic environment",
+            "Utilized: Keras, Python, Unity3D C#, Shader HLSL, Compute shader"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/MazeDefense",
+            "content": "Github"
+        } ],
+        "projectScreenshot": ["./sprites/personal_project/maze_defense.PNG"
+        ]
+    },
+
+    {
+        "name": "Danmaku Editor, May 2019",
+        "projectDescriptionList": [
+            "Editor that can build various pattern of bullets"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/Danmaku",
+            "content": "Github"
+        } ],
+        "projectScreenshot": ["./sprites/personal_project/danmaku_01.PNG",
+                            "./sprites/personal_project/danmaku_02.PNG"
+        ]
+    },
+    
+    {
+        "name": "Cosmic Adventure, Oct 2018",
+        "projectDescriptionList": [
+            "Crossy road + Crypt of the NecroDancer as base idea",
+            "Auto generate map according to perlin noise",
+            "Customize editor for designing AI Pattern"
+
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/DiceKnight",
+            "content": "Github"
+        },
+        {
+            "url": "https://drive.google.com/open?id=1vD8XywWyvx8kmWS0cfpHVQSojkDMO-Dl",
+            "content": "Game"
+        }],
+        "projectScreenshot": ["./sprites/personal_project/cosmic_adv.gif"
+        ]
+    },
+
+    {
+        "name": "Turn based SRPG - prototype phase, June 2016",
+        "projectDescriptionList": [
+            "I am a huge fan of Fire Emblem series",
+            "Applied A* and dijkstra for different path finding needs",
+            "Design dynamic AI Behaivor with Utility-base algorithm"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/TurnBase-Strategy-Game",
+            "content": "Github"
+        },
+        {
+            "url": "http://hsinpa.github.io/TurnBase-Strategy-Game/",
+            "content": "Demo"
+        }],
+        "projectScreenshot": ["./sprites/personal_project/srpg_01.PNG"
+        ]
+    },
+
+    {
+        "name": "Porter - Tetris like game, Aug 2014 (Removed from app store)",
+        "projectDescriptionList": [
+            "Multiplayer and ranking system construct with Node.js + Socket.io / MongoDB / Redis",
+            "Under multiplayer mode, you can choose random matchup or select from your online facebook friends",
+            "Redis is used to store current online user and MongoDB for user’s game data",
+            "Write custom vibrating function in java(android), and transfer it as jar to unity",
+            "Yeah, I draw all those art asset myself, take me more time than writing code"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://bitbucket.org/hsinpa/porter",
+            "content": "Bitbucket"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=06H_FBqqM0g",
+            "content": "Trailer"
+        }],
+        "projectScreenshot": ["./sprites/personal_project/porter_01.png",
+                            "./sprites/personal_project/porter_02.png"
+        ]
+    }
+]

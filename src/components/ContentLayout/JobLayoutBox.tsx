@@ -1,7 +1,7 @@
 import * as React from "react";
-import {ExperienceType, ProjectInfoArrayType} from '../../utility/DatasetType'
+import {MultiScreenshotType, ProjectInfoArrayType} from '../../utility/DatasetType'
 
-export interface JobLayoutBoxProp { content: ExperienceType; }
+export interface JobLayoutBoxProp { content: MultiScreenshotType; }
 
 export class JobLayoutBox extends React.Component<JobLayoutBoxProp, {}> {
 
@@ -29,7 +29,9 @@ export class JobLayoutBox extends React.Component<JobLayoutBoxProp, {}> {
             let screenShotList : JSX.Element[] = [];
 
             for (let k = 0; k < screenShotNum; k++) {
-                screenShotList.push(<img alt={info[i].projectName} src={info[i].projectScreenshot[k]} />);
+
+                if (info[i].projectScreenshot[k])
+                    screenShotList.push(<img alt={info[i].projectName} src={info[i].projectScreenshot[k]} />);
             }
 
             boxs.push(<div className="screenshots">{screenShotList}</div>);

@@ -1,5 +1,5 @@
 
-export interface ExperienceType {
+export interface MultiScreenshotType {
     companyname : string,
     companyUrl : string,
     jobTitle : string,
@@ -18,7 +18,7 @@ export interface SimpleInfoLayoutType {
     name : string,
     projectDescriptionList : string[],
     projectDescriptionWithLink : SimpleInfoLinkType[],
-    projectScreenshot : string
+    projectScreenshot : string[]
 }
 
 export interface SimpleInfoLinkType {
@@ -29,7 +29,6 @@ export interface SimpleInfoLinkType {
 export interface SimpleInfoStructure {
     list : SimpleInfoLayoutType[]
 }
-
 
 export interface HeaderDataType {
     link : string,

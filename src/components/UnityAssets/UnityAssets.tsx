@@ -36,7 +36,7 @@ class UnityAssets extends React.Component<PropsFromRedux> {
     }
     
     render() {
-        return <div id="unity_assets" className="container">
+        return <div id="unity_assets" className="container simple_info_layout">
             {GenerateSimpleLayout(this.props.assets)}
         </div>;
     }

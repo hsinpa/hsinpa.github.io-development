@@ -4,7 +4,7 @@ import {GetAllExperience} from './ExperienceAction'
 import {Dispatch} from "redux";
 import {connect, ConnectedProps } from 'react-redux';
 import { JobLayoutBox } from '../ContentLayout/JobLayoutBox';
-import {ExperienceType} from '../../utility/DatasetType'
+import {MultiScreenshotType} from '../../utility/DatasetType'
 
 const mapDispatch = (dispatch : Dispatch) => {
     return {
@@ -30,7 +30,7 @@ class Experience extends React.Component<PropsFromRedux> {
         this.props.fetchData();
     }
 
-    CreateJobLayoutBox(project : ExperienceType[]) {
+    CreateJobLayoutBox(project : MultiScreenshotType[]) {
         let boxs = [];
         let projectNum = project.length;
 

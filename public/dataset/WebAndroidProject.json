@@ -1,0 +1,29 @@
+[
+    {
+        "name": "PaintBoard.js, 2014",
+        "projectDescriptionList": [
+            "A Javascript Library made with vanilla canvas",
+            "Gain github stars from strangers"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/paintBoard.js",
+            "content": "Github"
+        } ],
+        "projectScreenshot": ["./sprites/personal_project/pinboard.png"]
+    },
+
+    {
+        "name": "Morse Secret - Native android app (Removed from app store), 2014",
+        "projectDescriptionList": [
+            "Utility tool to help student cheat through morse code",
+            "Accept number and alphabet character",
+            "You can change your favorite vibration speed",
+            "Can vibrate even user lock their monitor"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/MorseCheater",
+            "content": "Github"
+        } ],
+        "projectScreenshot": ["./sprites/personal_project/Morse Secret-feature-graphic.png"]
+    }
+]

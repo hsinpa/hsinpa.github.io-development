@@ -1,14 +1,14 @@
 import {Dispatch} from "redux";
 import {ProjectType, PackageType} from '../../utility/TypeFlag'
 
-import {ExperienceType, ProjectInfoArrayType} from '../../utility/DatasetType'
+import {MultiScreenshotType, ProjectInfoArrayType} from '../../utility/DatasetType'
 
 import {ActionFlag, PortfolioPath } from "../../utility/EventFlag";
 import {PostFetch} from "../../utility/Utility";
 
 export const GetAllExperience = (dispatch : Dispatch, ) => {
     try {
-        PostFetch(PortfolioPath.ExperiencePath, (data : ExperienceType[]) => {
+        PostFetch(PortfolioPath.ExperiencePath, (data : MultiScreenshotType[]) => {
             console.log(data);
 
             dispatch({type: ActionFlag.FETCH_EXPERIENCE, payload : data});

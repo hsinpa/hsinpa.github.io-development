@@ -5,6 +5,9 @@ export const ActionFlag = {
     FETCH_UNITYASSET : "FETCH_UNITYASSET",
     FETCH_HACKATHON : "FETCH_HACKATHON",
 
+    FETCH_PP_UNITYARVR_SSET : "FETCH_PPUNITY_AR_ASSET",
+    FETCH_PP_WEB_ANDROID_ASSET : "FETCH_PP_WEB_ANDROID_ASSET",
+
     //Project
     SET_CURRENT_PROJECT : "SET_CURRENT_PROJECT",
 
@@ -29,5 +32,9 @@ export const TestJSONPath = {
 
 export const PortfolioPath = {
     ExperiencePath : "./dataset/PastExperience.json",
-    UnityAssetPath : "./dataset/UnityAssets.json"
+    UnityAssetPath : "./dataset/UnityAssets.json",
+    HackathonPath : "./dataset/Hackathon.json",
+    
+    UnityAIProject: "./dataset/UnityAIProject.json",
+    WebAndroidProject: "./dataset/WebAndroidProject.json",
 }

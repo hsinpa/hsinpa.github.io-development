@@ -14,7 +14,7 @@
                 "content": "WebGL Demo Link"
             }
         ],
-        "projectScreenshot": "./sprites/screenshots/onecut.gif"
+        "projectScreenshot": ["./sprites/screenshots/onecut.gif"]
     },
     {
         "name": "Math Parser - June 2019",
@@ -33,7 +33,7 @@
                 "content": "Documentation link"
             }
         ],
-        "projectScreenshot": "./sprites/screenshots/math_parser_screen_01.jpg"
+        "projectScreenshot": ["./sprites/screenshots/math_parser_screen_01.jpg"]
     },
     {
         "name": "Ultimate Scroll View - Dec 2019",
@@ -50,6 +50,6 @@
             "url": "https://github.com/hsinpa/UltimateScrollView",
             "content": "Github"
         }],
-        "projectScreenshot": ""
+        "projectScreenshot": []
     }
 ]

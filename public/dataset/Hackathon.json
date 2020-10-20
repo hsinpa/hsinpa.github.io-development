@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Toxic Trip - Quarantine Game Jam 2020",
+        "projectDescriptionList": [
+            "Calculate the move flow and interaction between villages",
+            "Design the algorithm of spreading and effect per town and villager",
+            "Team up with Church Era author and HTC colleague"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://hsinpa.itch.io/toxic-trips",
+            "content": "Itch.io"
+        } ],
+        "projectScreenshot": ["./sprites/hackathon/conora_gamejam.png"]
+    },
+    {
+        "name": "ViveFunding - HTC Viveport Hackathon Sep 2018",
+        "projectDescriptionList": [
+            "Work as a team, a crowd sourcing platform that can both earn revenue and increase valuable app content on Viveport",
+            "Design the business model, crowd sourcing cotent -> more subscription -> more user / third party developer -> profit",
+            "Pure concept this time, no demo"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://docs.google.com/presentation/d/1BNu9ytKXBc01om1lg80yxYQyJDBL8qcS1MWflOCBJ4Y/edit?usp=sharing",
+            "content": "Powerpoint"
+        }
+        ],
+        "projectScreenshot": ["./sprites/hackathon/htc_hackathon_2.PNG"]
+    },
+    {
+        "name": "True Automation - HTC Viveport Hackathon May 2018",
+        "projectDescriptionList": [
+            "Come out with the idea and implement a record-base integration test system",
+            "Basically, record the user’s interaction to UI element, after that repeat the same process in the test system",
+            "Hugely decrease the time to manually write integration test from code"
+        ],
+        "projectDescriptionWithLink": [{
+            "url": "https://docs.google.com/presentation/d/1HreZAtkLTn8elj2SrwPK4sojxRJhGidOTmIu-57XqnE/edit?usp=sharing",
+            "content": "Powerpoint"
+        }],
+        "projectScreenshot": []
+    },
+    {
+        "name": "Volcano Worshiper - Taipei Fukushima Game Jam 2018",
+        "projectDescriptionList": [
+            "Water ball generation, game initialization, camera control, audio system, and algorithm to bind color together without going crazy"
+        ],
+        "projectDescriptionWithLink": [ 
+            {
+                "url": "https://idleman.itch.io/volcano-worshiper",
+                "content": "Itch.io"
+            }],
+        "projectScreenshot": ["./sprites/hackathon/vocano_worship.png"]
+    },
+    {
+        "name": "多多溢善 - Kaohsiung Global Game Jam 2018",
+        "projectDescriptionList": [
+            "Script storyboard to display at the beginning of game, and every time you fail",
+            "Design json structure to store game mechanism, map layout and level difficult",
+            "Generate level base on json dataset"
+        ],
+        "projectDescriptionWithLink": [ 
+            {
+                "url": "https://globalgamejam.org/2018/games/%E5%A4%9A%E5%A4%9A%E6%BA%A2%E5%96%84",
+                "content": "Game jam page"
+            }],
+        "projectScreenshot": ["./sprites/hackathon/fake_cross_road.png"]
+    },
+    
+    {
+        "name": "Infested Dungeon - Kaohsiung Fukushima Game Jam 2016",
+        "projectDescriptionList": [
+            "Write script to read JSON from Tiles and generate map to Unity",
+            "Design the movement of hostage and enemy AI behavior",
+            "Handle Player’s hp and interaction with hostage",
+            "Write shader script to distort screen a bit, so it match with old style shooting game"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://hsinpa.github.io/FukuGameJam2016/",
+            "content": "Game Link"
+        }
+    ],
+        "projectScreenshot": ["./sprites/hackathon/fukushima_jam_2015.png"]
+    },    
+    {
+        "name": "Brick Escape - Kaohsiung Fukushima Game Jam 2015",
+        "projectDescriptionList": [
+            "A puzzle-maze game, utilize all the tool to guide your character out",
+            "Handle Player’s movement and functions of special brick"],
+        "projectDescriptionWithLink": [ {
+            "url": "https://drive.google.com/file/d/0B1U9G1U27C43dHRqZF8wUDM5Ym8/view?usp=sharing",
+            "content": "Project link"
+        }
+    ],
+        "projectScreenshot": ""
+    },
+    {
+        "name": "Light of the Dark - HK Global Game Jam 2015",
+        "projectDescriptionList": ["Created from scratch as part of a team of four during HK Global Game Jam",
+            "I was responsible for all the coding and construction of the Unity scenes",
+            "Light ball can transform into shadow bridge between two solid walls",
+            "all the coding and construction of the Unity scenes"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "http://globalgamejam.org/2015/games/light-dark",
+            "content": "Game Jam Link"
+        }
+    ],
+        "projectScreenshot": ["./sprites/hackathon/hk_gamejam_2015.png"]
+    },
+
+    {
+        "name": "Shanghai-Hong Kong Hackathon - 2014",
+        "projectDescriptionList": ["Participate with Bull-b colleagues",
+            "A coin pusher game, made by Unity"
+        ],
+        "projectDescriptionWithLink": [
+        ],
+        "projectScreenshot": ["./sprites/hackathon/shanghai-hk-hackathon.png"]
+    },
+
+    {
+    "name": "Hong Kong Angel Hack - 2013",
+    "projectDescriptionList": ["Participate with Bull-b colleagues",
+        "Simulate mouse controller base on mobile phone",
+        "Mimic the movement of mouse by gyroscope and touch screen",
+        "Didn't help much this time, but the spirit touched"
+    ],
+    "projectDescriptionWithLink": [
+    ],
+    "projectScreenshot": ["./sprites/hackathon/angelhack_2013_01.jpg", "./sprites/hackathon/angelhack_2013_02.jpg"]
+}
+
+]

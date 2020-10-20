@@ -1,10 +1,10 @@
 import {ActionFlag} from "../../utility/EventFlag";
 import {ProjectType} from '../../utility/TypeFlag'
 
-import {ExperienceType} from '../../utility/DatasetType'
+import {MultiScreenshotType} from '../../utility/DatasetType'
 
 export interface ExperienceStructure {
-    list : ExperienceType[],
+    list : MultiScreenshotType[],
 };
 
 const initialState : ExperienceStructure = {

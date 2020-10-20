@@ -1,10 +1,9 @@
-#unity_assets {
-
+.simple_info_layout {
     .asset_demo {
         padding: 1rem 0rem;
         ul {
             list-style-type: circle;
-            padding : 0.2rem 0rem;
+            padding : 0rem 0rem;
             li {
                 padding: 0.1rem 0rem;
             }
@@ -12,6 +11,15 @@
 
         img {
             max-width: 15rem;
+        }
+    }
+
+    .row_screenshot {
+        display: inline;
+        margin: 0 auto;
+
+        img {
+            padding: 0rem 1rem;
         }
     }
 }

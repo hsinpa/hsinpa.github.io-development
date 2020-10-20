@@ -29,18 +29,30 @@ export class SimpleInfoLayoutBox extends React.Component<SimpleInfoLayoutProp, {
     }
 
     GenerateScreenShot(info : SimpleInfoLayoutType) : JSX.Element {
-        if (!info.projectScreenshot)
+        let infoLen = info.projectScreenshot.length;
+        if (infoLen <= 0)
             return <div></div>;
 
-        return <div className="col-md-3">
-            <img alt={info.name} src={info.projectScreenshot} />
+
+        let imgBox : JSX.Element[] = [];
+
+        for (let i = 0; i < infoLen; i++) {
+            imgBox.push(
+                <img alt={info.name} src={info.projectScreenshot[i]} />
+            )
+        }
+
+        let imgClassname = (infoLen > 1) ? "row row_screenshot" : "col-md-3";
+
+        return <div className={imgClassname}>
+            {imgBox}
         </div>;   
     }
 
     render() {
         const content = this.props.content;
         return <div className="asset_demo">
-            <h2>{content.name}</h2> <br/>
+            <h2>{content.name}</h2>
 
             <div className="row asset_demo">
                 {this.GenerateInfoBox(this.props.content)}
