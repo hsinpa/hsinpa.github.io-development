@@ -12,6 +12,16 @@
         img {
             max-width: 15rem;
         }
+
+        .enlargeImg {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 65%;
+            max-width: 100%;
+            z-index: 2;
+        }
     }
 
     .row_screenshot {

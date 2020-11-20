@@ -35,16 +35,15 @@ class PersonalProject extends React.Component<PropsFromRedux> {
     
     render() {
         return <div className="container simple_info_layout">
+            <br></br>
             <h1>Made with proud</h1>
 
-            <h2>Unity / Computer Vision / ARProject</h2>
+            <h2>Unity / Computer Vision / AR Project</h2>
             {GenerateSimpleLayout(this.props.unity_ai_set)}
 
 
             <h2>Web / Android Project</h2>
             {GenerateSimpleLayout(this.props.web_android_set)}
-
-
         </div>;
     }
 }

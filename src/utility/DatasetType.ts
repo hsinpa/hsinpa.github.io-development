@@ -18,7 +18,8 @@ export interface SimpleInfoLayoutType {
     name : string,
     projectDescriptionList : string[],
     projectDescriptionWithLink : SimpleInfoLinkType[],
-    projectScreenshot : string[]
+    projectScreenshot : string[],
+    youtube? : string,
 }
 
 export interface SimpleInfoLinkType {

@@ -22,6 +22,10 @@ export const PostFetch = function(url : string, callback : (data:any) => void) {
     }
 }
 
+export const OnEnlargmeImageEvent = function(p_event : React.MouseEvent<HTMLImageElement>) {
+    let enlargeClassNmae = "enlargeImg";
+    p_event.currentTarget.className = (p_event.currentTarget.className == "") ? enlargeClassNmae : "";
+}
 
 export const DispatchFetchPost = (dispatch : Dispatch, type: string, url : string) => {
     try {

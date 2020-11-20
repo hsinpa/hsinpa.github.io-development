@@ -1,5 +1,21 @@
 [
     {
+        "name": "Origami AR (RakugakiAR Clone), September 2020",
+        "projectDescriptionList": [
+            "Design the computer vision algorithm to capture contour on raw 2D texture",
+            "Implement Marhcing Cube to create 3D mesh from processed output",
+            "Mess around with some basic Arkit/Arcore functions",
+            "Utilized: Unity3D C#, Shader HLSL, Compute shader"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/AROrigamiGrocery",
+            "content": "Github"
+        } ],
+        "projectScreenshot": [], 
+        "youtube" : "ripaFRcXeAY"
+    },
+
+    {
         "name": "3D Image/ Video Processing, May 2020",
         "projectDescriptionList": [
             "Design a lightweight autoencoder architecture to output depth image from rgb texture",

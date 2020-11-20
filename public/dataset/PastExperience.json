@@ -11,9 +11,18 @@
                                      "./sprites/screenshots/viveport_video_screenshot_02.PNG"],
                 "projectURL" : "https://www.viveport.com/apps/4f5f140a-0928-4fcb-8023-93dc212eac17/VIVEPORT_Video/",
                 "projectDescriptionList" : ["Support ambisonic audio at Runtime, which is not available yet at all other sdk (Oculus Audio, Facebook Audio, Google Audio sdk)", 
-                                            "Play around with ffmepg and codec, for better and smooth streaming experience", 
-                                            "Optimizing video load time, by loading them in multi-thread",
-                                        "All other social related functionality"]
+                                        "Play around with ffmepg and codec, for better and smooth streaming experience", 
+                                        "Optimizing video load time, by loading them in multi-thread",
+                                        "Create 6Dof lite experience, that simulate 3d object in 360 video",
+                                        "All other account system related functionality"]
+            },
+            {
+                "projectName" : "Friday影音",
+                "projectScreenshot" : ["./sprites/screenshots/friday_screenshot_01.png",
+                                     "./sprites/screenshots/friday_screenshot_02.PNG"],
+                "projectURL" : "https://www.viveport.com/1cb9ee7d-8752-4843-a6cd-25b89af9c265",
+                "projectDescriptionList" : ["Handle all UI alignment and input control related task", 
+                                        "Swtich between 3D Scene seamlessly"]
             }
         ]
     },
@@ -60,7 +69,8 @@
                 "projectDescriptionList" : ["Learn and practice developing their subordinates through relationship, performance, and career challenges",
                     "Transmit data to app with Assetbundle and zip file, for accomplishing “hot” game content update",
                     "Develop web-based dialogue tree editor. This help user to design their own dialogue path more intuitively",
-                    "Auto script voice generation with Amazon Polly, it ease user to have a better overall sense before hiring voice actor"
+                    "Auto script voice generation with Amazon Polly, it ease user to have a better overall sense before hiring voice actor",
+                    ""
                 ]
             },
             {

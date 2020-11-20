@@ -1,5 +1,6 @@
 import * as React from "react";
 import {MultiScreenshotType, ProjectInfoArrayType} from '../../utility/DatasetType'
+import {OnEnlargmeImageEvent} from '../../utility/Utility'
 
 export interface JobLayoutBoxProp { content: MultiScreenshotType; }
 
@@ -31,7 +32,7 @@ export class JobLayoutBox extends React.Component<JobLayoutBoxProp, {}> {
             for (let k = 0; k < screenShotNum; k++) {
 
                 if (info[i].projectScreenshot[k])
-                    screenShotList.push(<img alt={info[i].projectName} src={info[i].projectScreenshot[k]} />);
+                    screenShotList.push(<img alt={info[i].projectName} src={info[i].projectScreenshot[k]} onClick={OnEnlargmeImageEvent} />);
             }
 
             boxs.push(<div className="screenshots">{screenShotList}</div>);

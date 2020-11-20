@@ -42,7 +42,7 @@ class Header extends React.Component<PropsFromRedux> {
                 <ul className="navbar-nav mr-auto">
                     
                 <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link" to="/experience">Experience</Link>
+                    <Link className="nav-link" to="/experience">Work Experience</Link>
                 </li>
 
                 <li className="nav-item" onClick={e => this.OnNavClick(e)}>
