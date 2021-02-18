@@ -7,8 +7,8 @@
         "projectInfoArray" : [
             {
                 "projectName" : "Viveport Video",
-                "projectScreenshot" : ["./sprites/screenshots/viveport_video_screenshot_01.PNG",
-                                     "./sprites/screenshots/viveport_video_screenshot_02.PNG"],
+                "projectScreenshot" : ["./sprites/screenshots/viveport_video_screenshot_01.png",
+                                     "./sprites/screenshots/viveport_video_screenshot_02.png"],
                 "projectURL" : "https://www.viveport.com/apps/4f5f140a-0928-4fcb-8023-93dc212eac17/VIVEPORT_Video/",
                 "projectDescriptionList" : ["Support ambisonic audio at Runtime, which is not available yet at all other sdk (Oculus Audio, Facebook Audio, Google Audio sdk)", 
                                         "Play around with ffmepg and codec, for better and smooth streaming experience", 
@@ -19,7 +19,7 @@
             {
                 "projectName" : "Friday影音",
                 "projectScreenshot" : ["./sprites/screenshots/friday_screenshot_01.png",
-                                     "./sprites/screenshots/friday_screenshot_02.PNG"],
+                                     "./sprites/screenshots/friday_screenshot_02.png"],
                 "projectURL" : "https://www.viveport.com/1cb9ee7d-8752-4843-a6cd-25b89af9c265",
                 "projectDescriptionList" : ["Handle all UI alignment and input control related task", 
                                         "Swtich between 3D Scene seamlessly"]
@@ -55,7 +55,6 @@
             }
         ]
     },
-
     {
         "companyname" : "Wrainbo (2015 - 2018)",
         "companyUrl" : "./sprites/logo/wrainbo_logo.png",
@@ -70,7 +69,8 @@
                     "Transmit data to app with Assetbundle and zip file, for accomplishing “hot” game content update",
                     "Develop web-based dialogue tree editor. This help user to design their own dialogue path more intuitively",
                     "Auto script voice generation with Amazon Polly, it ease user to have a better overall sense before hiring voice actor",
-                    ""
+                    "<a href='https://apps.apple.com/us/app/blg-pragmatic-leadership/id1522127401'>App Store</a>, <a href='https://play.google.com/store/apps/details?id=com.blg.pragmaticleadership'>Google Play</a>",
+                    "Demo Account : app_review@blg.com/BLG001"
                 ]
             },
             {
@@ -79,7 +79,8 @@
                 "projectURL" : "http://wrainbo.com/bizbattlegame",
                 "projectDescriptionList" : ["Business Battle is a fantasy strategy game that teaches economics and business fundamentals",
                     "Build micro simulation, user can receive an immediate personal record after each game",
-                    "Assign shadow player to mimic real-time player, so player can always find a match without waiting"
+                    "Assign shadow player to mimic real-time player, so player can always find a match without waiting",
+                    "<a href='https://apps.apple.com/us/app/business-battle/id1188252364'>App store</a>"
                 ]
             }
         ]

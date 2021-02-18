@@ -1,4 +1,5 @@
 import * as React from "react";
+import HTMLParse from 'html-react-parser';
 import {MultiScreenshotType, ProjectInfoArrayType} from '../../utility/DatasetType'
 import {OnEnlargmeImageEvent} from '../../utility/Utility'
 
@@ -10,7 +11,6 @@ export class JobLayoutBox extends React.Component<JobLayoutBoxProp, {}> {
     CreateJobDescriptionList(info : ProjectInfoArrayType[]) :JSX.Element[] {
         let boxs : JSX.Element[] = [];
         let projectNum = info.length;
-
         
         for (let i = 0; i < projectNum; i++) {
             boxs.push(<h2><a href={info[i].projectURL}>{info[i].projectName}</a></h2>);
@@ -20,7 +20,7 @@ export class JobLayoutBox extends React.Component<JobLayoutBoxProp, {}> {
             let bulletPoint : JSX.Element[] = [];
 
             for (let k = 0; k < descriptionNum; k++) {
-                bulletPoint.push(<li>{info[i].projectDescriptionList[k]}</li>)
+                bulletPoint.push(<li>{ HTMLParse(info[i].projectDescriptionList[k])}</li>)
             }
 
             boxs.push(<ul>{bulletPoint}</ul>);
