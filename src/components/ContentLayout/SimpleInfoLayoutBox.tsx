@@ -1,6 +1,7 @@
 import * as React from "react";
 import {SimpleInfoLayoutType} from '../../utility/DatasetType'
 import {OnEnlargmeImageEvent} from '../../utility/Utility'
+import HTMLParse from 'html-react-parser';
 
 export interface SimpleInfoLayoutProp { content: SimpleInfoLayoutType; }
 
@@ -13,7 +14,7 @@ export class SimpleInfoLayoutBox extends React.Component<SimpleInfoLayoutProp, {
 
         let descList : JSX.Element[] = [];
         for (let i = 0; i < descListNum; i++) {
-            descList.push(<li>{info.projectDescriptionList[i]}</li>)
+            descList.push(<li>{HTMLParse(info.projectDescriptionList[i])}</li>)
         }
 
         for (let i = 0; i < urlListNum; i++) {
