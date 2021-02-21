@@ -3,6 +3,7 @@ export const ActionFlag = {
     //Fetch
     FETCH_EXPERIENCE : "FETCH_EXPERIENCE",
     FETCH_UNITYASSET : "FETCH_UNITYASSET",
+    FETCH_AWARD : "FETCH_AWARD",
     FETCH_HACKATHON : "FETCH_HACKATHON",
 
     FETCH_PP_UNITYARVR_SSET : "FETCH_PPUNITY_AR_ASSET",
@@ -34,7 +35,8 @@ export const PortfolioPath = {
     ExperiencePath : "./dataset/PastExperience.json",
     UnityAssetPath : "./dataset/UnityAssets.json",
     HackathonPath : "./dataset/Hackathon.json",
-    
+    AwardPath : "./dataset/Award.json",
+
     UnityAIProject: "./dataset/UnityAIProject.json",
     WebAndroidProject: "./dataset/WebAndroidProject.json",
 }

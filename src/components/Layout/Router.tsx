@@ -10,6 +10,7 @@ import Experience from '../Experience/Experience';
 import Project from '../Project/PerosnalProject';
 import Hackathon from '../Hackathon/Hackathon';
 import UnityAssets from '../UnityAssets/UnityAssets';
+import AwardPage from '../Award/AwardPage';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -51,7 +52,7 @@ class Router extends React.Component<PropsFromRedux> {
                 <Route path="/projects" component={Project} />
                 <Route path="/hackathon" component={Hackathon} />
                 <Route path="/assets" component={UnityAssets} />
-
+                <Route path="/award" component={AwardPage} />
             </Switch>
         </div>
     }

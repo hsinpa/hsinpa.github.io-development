@@ -57,6 +57,10 @@ class Header extends React.Component<PropsFromRedux> {
                     <Link className="nav-link" to="/assets">Unity Asset</Link>
                 </li>
 
+                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
+                    <Link className="nav-link" to="/award">Awards</Link>
+                </li>
+
                 </ul>
             </div>
             </nav>

@@ -1,0 +1,59 @@
+[{
+        "name": "International Serious Play Award : Silver Winner - Jul 2019",
+        "projectDescriptionList": [
+            "Pragmatic Leadership: Coaching Leader",
+            "Received award even we are not working on it."
+        ],
+        "projectDescriptionWithLink": [{
+                "url": "https://seriousplayconf.com/2019-award-winners/",
+                "content": "Award page"
+            }
+        ],
+        "projectScreenshot": ["./sprites/awards/award_badge_2019.png"]
+    },
+    {
+        "name": "Training magazine - Simulation design : Silver - Oct 2017",
+        "projectDescriptionList": [
+            "Business Battle"
+        ],
+        "projectDescriptionWithLink": [
+            {
+                "url" : "https://trainingmag.com/training-magazine-names-2017-elearning-design-challenge-winners",
+                "content" : "Award Page"
+            }
+        ],
+        "projectScreenshot": ["./sprites/awards/training_magazine_2017.jpg"]
+    },
+    {
+        "name": "International Serious Play Award : Gold Winner - Jul 2017",
+        "projectDescriptionList": ["Business Battle"
+        ],
+        "projectDescriptionWithLink": [{
+            "url": "https://seriousplayconf.com/2017-award-winners/",
+            "content": "Award Page"
+            }],
+        "projectScreenshot": ["./sprites/awards/award_badge_2017.png"]
+    },
+
+    {
+        "name": "Dreamit : Fall Class of 2016",
+        "projectDescriptionList": [
+            "An USA accelerator programs",
+            "All team member work a month together at Philadelphia"],
+        "projectDescriptionWithLink": [{
+            "url": "https://medium.com/dreamit-perspectives/announcing-the-dreamit-fall-class-of-2016-50fca46a0b41/",
+            "content": "Announcement Page"
+            }],
+        "projectScreenshot": ["./sprites/awards/dreamit_announcement.jpg"]
+    },
+
+    {
+        "name": "Barracuda Bowl : 2016",
+        "projectDescriptionList": ["According to my vague memory, we pitch about our company vision and business model of Business Battle", "Man in center is the founder of Wrainbo"],
+        "projectDescriptionWithLink": [{
+            "url": "https://learningnews.com/news/the-masie-center/2016/finalists-selected-for-learning-2016-barracuda-bowl/",
+            "content": "Announcement Page"
+            }],
+        "projectScreenshot": ["./sprites/awards/Barracuda_Bowl.jpg"]
+    }
+]

@@ -7,6 +7,7 @@ export function GenerateSimpleLayout(infoList : SimpleInfoLayoutType[]) {
     let boxs = [];
 
     for (let i = 0; i < infoList.length; i++) {
+        console.log(infoList[i]);
         boxs.push(<SimpleInfoLayoutBox content={infoList[i]}/>);
     }
 
