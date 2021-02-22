@@ -55,8 +55,8 @@
     {
         "name": "SparkAR image effect, Jan 2020",
         "projectDescriptionList": [
-            "Make Color Segment and Dithering effect by pure code",
-            "SparkAR lack support to many shader functions, have to create them with with math",
+            "Make Color Segment and Dithering effect by pure script",
+            "SparkAR lack support to many basic shader operation, have to create them with math",
             "Got forks by other developer"
         ],
         "projectDescriptionWithLink": [ {
@@ -73,7 +73,6 @@
             "Can endure hundred of unit without fps drop",
             "Use Flow Field path finding to greatly reduce computation needs",
             "Player can move map block around, which create dynamic environment",
-            "Utilized: Keras, Python, Unity3D C#, Shader HLSL, Compute shader"
         ],
         "projectDescriptionWithLink": [ {
             "url": "https://github.com/hsinpa/MazeDefense",
