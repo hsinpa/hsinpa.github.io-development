@@ -34,6 +34,24 @@
         "screenshot_enlargable" : "false",
         "projectInfoArray" : [
             {
+                "projectName" : "向大獅學習",
+                "projectScreenshot" : ["./sprites/screenshots/football_vr.png"],
+                "projectURL" : "https://www.facebook.com/MoNTUE2011/posts/2602113483203516",
+                "projectDescriptionList" : ["An Wave VR app for Taipei Xing An elementary school",
+                    "Write custom shader to paint on 3d meshes. Support until three different textures"
+                ]
+            },
+            {
+                "projectName" : "幸福森林圖書館",
+                "projectScreenshot" : ["./sprites/screenshots/football_vr.png"],
+                "projectURL" : "https://apps.apple.com/tw/app/%E5%B9%B8%E7%A6%8F%E6%A3%AE%E6%9E%97%E5%9C%96%E6%9B%B8%E9%A4%A8/id1537608120",
+                "projectDescriptionList" : ["An AR oriented app for Taipei Xing An elementary school",
+                    "Reused and improve my previous multiple choice tool from 'Institute of Labor : VR Employee tranining', which hugely save development and debug time",
+                    "Applied Unit AR Foundation for basic image recongnition",
+                    "Finish both '向大獅學習' and '幸福森林圖書館', within a month; as the only programmer in the team"
+                ]
+            },
+            {
                 "projectName" : "Football VR",
                 "projectScreenshot" : ["./sprites/screenshots/football_vr.png"],
                 "projectURL" : "https://www.expectstudio.com/project-03",
