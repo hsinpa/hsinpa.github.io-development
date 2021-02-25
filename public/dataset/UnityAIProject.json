@@ -1,7 +1,23 @@
 [
-
     {
-        "name": "Random Walk on WebGL, Jan 2021",
+        "name": "Snake Mesh Editor, Feb 2021",
+        "projectDescriptionList": [
+            "A creator tool heavily inspire by Arcaea",
+            "Genrate vert, normal, triangle base on pieces of bezier curve",
+            "Design the mesh to be generate on the fly",
+            "No collider involve for touch detection, aim for frame rate performance",
+            "No third party plugin involve, but the current state is NOT near production level",
+            "Utilized: Bezier Curve, Procedural mesh generation; Arcaea professional thumb player"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://github.com/hsinpa/RhythmGameDemo",
+            "content": "Github"
+        } ],
+        "projectScreenshot": ["./sprites/personal_project/arcaea_score.jpg"], 
+        "youtube" : "Z_dJDHrxClU"
+    },
+    {
+        "name": "Random Walk on WebGL, Jan-Feb 2021",
         "projectDescriptionList": [
             "No library involve, except REGL, for us to consentrate more on shader code",
             "<a href='https://hsinpa.github.io/WebGLPlayground/'>Web Canvas : Deep Parallel & Bubble Particle Effect</a>",
@@ -10,6 +26,8 @@
             "CSS blur and simple distort effect when mouse scroll",
             "<a href='https://hsinpa.github.io/WebGLPlayground/glitch_effect.html'>Webgl shader : Cyberpunk 2077 Glitching Effect</a>",
             "Simple chromatic aberration effect from tweak rgb value seperately; Dones't look closed to what cyberpunk 2077 does",
+            "<a href='https://hsinpa.github.io/WebGLPlayground/floating_island.html'>Webgl shader : Floating Effect</a>",
+            "A demo make for outsourcing project; Done within 2 hours",
             "Utilized: Typescript, WEBGL, REGL"
         ],
         "projectDescriptionWithLink": [ {
@@ -72,7 +90,7 @@
         "projectDescriptionList": [
             "Can endure hundred of unit without fps drop",
             "Use Flow Field path finding to greatly reduce computation needs",
-            "Player can move map block around, which create dynamic environment",
+            "Player can move map block around, which create dynamic environment"
         ],
         "projectDescriptionWithLink": [ {
             "url": "https://github.com/hsinpa/MazeDefense",
