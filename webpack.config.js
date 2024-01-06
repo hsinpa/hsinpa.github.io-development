@@ -1,5 +1,4 @@
 const path = require('path');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
@@ -7,8 +6,7 @@ module.exports = {
     optimization: {
         minimize: true,
         minimizer: [new TerserPlugin({
-            parallel: true,
-            cache: true,
+            parallel: true
         })],
     },
     
@@ -24,12 +22,15 @@ module.exports = {
         path: path.resolve(__dirname, 'public/builds'),
         publicPath : path.join('public/builds'),
     },
+
     devServer: {
-        contentBase: path.join(__dirname, 'public'),
+        static: {
+          directory: path.join(__dirname, 'public'),
+        },
         compress: true,
-        port: 9020
+        port: 9000,
       },
-    
+
     module: {
         rules: [
             {
@@ -50,7 +51,6 @@ module.exports = {
             {
                 test: /\.(scss|sass|css)$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
                     "css-loader",
                     "sass-loader"
                 ]
@@ -58,9 +58,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin({
-            filename: './css/[name].css'
-        })
+
     ],
     // When importing a module whose path matches one of the following, just
     // assume a corresponding global variable exists and use that instead.
