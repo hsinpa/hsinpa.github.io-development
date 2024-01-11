@@ -52,7 +52,7 @@ class Router extends React.Component<PropsFromRedux> {
                 <Route path="/projects" component={Project} />
                 <Route path="/hackathon" component={Hackathon} />
                 <Route path="/assets" component={UnityAssets} />
-                <Route path="/award" component={AwardPage} />
+                {/* <Route path="/award" component={AwardPage} /> */}
             </Switch>
         </div>
     }

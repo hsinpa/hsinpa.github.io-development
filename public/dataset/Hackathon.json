@@ -1,5 +1,18 @@
 [
     {
+        "name": "Winter Worm Summer Grass - Global game jam 2023",
+        "projectDescriptionList": [
+            "Responisible for randomly placing obstacle and enengy object inside insect's body. Make sure they don't overlap",
+            "Should be my last game jam, to group up with random teammate"
+        ],
+        "projectDescriptionWithLink": [ {
+            "url": "https://v3.globalgamejam.org/2023/games/team-h-8",
+            "content": "Game Jam Link"
+        } ],
+        "projectScreenshot": ["./sprites/hackathon/gamejam_2023.jpg"]
+    },
+
+    {
         "name": "Toxic Trip - Quarantine Game Jam 2020",
         "projectDescriptionList": [
             "Calculate the move flow and interaction between villages",

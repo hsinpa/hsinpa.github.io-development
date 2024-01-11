@@ -32,38 +32,38 @@ class Header extends React.Component<PropsFromRedux> {
     render() {
         return <div>
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link className="navbar-brand" to="/">Hsinpa's Portfolio</Link>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link className="navbar-brand" to="/">Hsinpa's Portfolio</Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
-                    
-                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link" to="/experience">Work Experience</Link>
-                </li>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto">
+                
+            <li className="nav-item" onClick={e => this.OnNavClick(e)}>
+                <Link className="nav-link" to="/experience">Work Experience</Link>
+            </li>
 
-                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link" to="/projects">Personal Project</Link>
-                </li>
+            <li className="nav-item" onClick={e => this.OnNavClick(e)}>
+                <Link className="nav-link" to="/projects">Personal Project</Link>
+            </li>
 
-                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link" to="/hackathon">Hackathon</Link>
-                </li>
+            <li className="nav-item" onClick={e => this.OnNavClick(e)}>
+                <Link className="nav-link" to="/hackathon">Hackathon</Link>
+            </li>
 
-                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link" to="/assets">Unity Asset</Link>
-                </li>
+            <li className="nav-item" onClick={e => this.OnNavClick(e)}>
+                <Link className="nav-link" to="/assets">Unity Asset</Link>
+            </li>
 
-                <li className="nav-item" onClick={e => this.OnNavClick(e)}>
-                    <Link className="nav-link" to="/award">Awards</Link>
-                </li>
+            {/* <li className="nav-item" onClick={e => this.OnNavClick(e)}>
+                <Link className="nav-link" to="/award">Awards</Link>
+            </li> */}
 
-                </ul>
-            </div>
-            </nav>
+            </ul>
+        </div>
+        </nav>
 
 
         </div>;

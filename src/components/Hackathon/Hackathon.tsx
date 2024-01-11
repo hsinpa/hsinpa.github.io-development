@@ -35,7 +35,7 @@ class Hackathon extends React.Component<PropsFromRedux> {
     render() {
         return <div id="hackathon" className="container simple_info_layout">
             <br></br>
-            <h1>Flow of history - in Chronogical order</h1>
+            <h1>In chronogical order</h1>
             {GenerateSimpleLayout(this.props.dataset)}
         </div>;
     }
